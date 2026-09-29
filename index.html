@@ -14,7 +14,7 @@
   <!-- 【需填写】准备分享卡片图片，并替换为实际图片路径 -->
   <meta property="og:image" content="og-cover.png">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20260929-0924">
 </head>
 <body class="home-page">
 
@@ -23,7 +23,10 @@
       <!-- 左侧：个人介绍（仅英文关键词） -->
       <section class="hero-text" aria-label="个人介绍">
         <!-- 【需填写】姓名 -->
-        <h1 class="hero-title">Hi, I'm Yitong Liu</h1>
+        <h1 class="hero-title">
+          <span>Hi, I'm Yitong Liu</span>
+          <img class="hero-title-apple sway" src="apple.svg" alt="" aria-hidden="true">
+        </h1>
         <!-- 【需填写】首页欢迎语 -->
         <p class="hero-name">Welcome to my corner</p>
         <!-- 【需填写】个人标签，可按需增删 -->
@@ -34,6 +37,7 @@
         </ul>
         <!-- 首页导航放在个人简介下方 -->
         <nav class="site-nav" aria-label="主导航">
+          <img class="home-nav-apple sway" src="apple.svg" alt="" aria-hidden="true">
           <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="打开菜单">
             <span></span><span></span><span></span>
           </button>

@@ -143,7 +143,7 @@ input:focus-visible, textarea:focus-visible {
   width: 14px;
   height: 14px;
   flex: none;
-  background: url("../images/apple.svg") center / contain no-repeat;
+  background: url("apple.svg") center / contain no-repeat;
 }
 
 /* 汉堡按钮（桌面端隐藏） */
@@ -199,11 +199,16 @@ input:focus-visible, textarea:focus-visible {
 }
 
 .hero-title {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
   font-family: var(--font-title);
   font-size: var(--fs-hero);
   line-height: 1.2;
   letter-spacing: .01em;
 }
+.hero-title-apple { width: 50px; height: auto; flex: none; }
 
 .hero-name {
   font-family: var(--font-title);
@@ -234,7 +239,7 @@ input:focus-visible, textarea:focus-visible {
   width: 16px;
   height: 16px;
   flex: none;
-  background: url("../images/apple.svg") center / contain no-repeat;
+  background: url("apple.svg") center / contain no-repeat;
 }
 /* 仅在 JS 启用动画时先隐藏，避免 JS 失效导致内容不可见 */
 body.anim-ready .keywords li {
@@ -272,6 +277,7 @@ body.anim-ready .keywords li.show { opacity: 1; transform: none; }
 
 /* 首页导航放大，增强桌面端的视觉层级 */
 .home-page .hero-text .site-nav { justify-content: flex-start; margin-top: var(--space-xl); }
+.home-nav-apple { width: 38px; height: auto; flex: none; }
 .home-page .nav-menu { gap: var(--space-sm); padding: 10px 16px; }
 .home-page .nav-menu a { padding: 10px 16px; }
 .home-page .nav-en { font-size: 17px; }
@@ -342,7 +348,7 @@ body.anim-ready .keywords li.show { opacity: 1; transform: none; }
   width: 20px;
   height: 20px;
   flex: none;
-  background: url("../images/apple.svg") center / contain no-repeat;
+  background: url("apple.svg") center / contain no-repeat;
 }
 .section-desc { margin-top: var(--space-xs); color: var(--ink-soft); font-size: var(--fs-small); }
 
@@ -411,7 +417,7 @@ body.anim-ready .keywords li.show { opacity: 1; transform: none; }
   top: 6px;
   width: 16px;
   height: 16px;
-  background: url("../images/apple.svg") center / contain no-repeat;
+  background: url("apple.svg") center / contain no-repeat;
 }
 
 /* ---------- 9. 各内页专用 ---------- */
@@ -609,6 +615,8 @@ body.anim-ready .fade-in.visible { opacity: 1; transform: none; }
   /* 首页：上下堆叠、允许滚动，为汉堡按钮留出顶部空间 */
   .hero { justify-content: flex-start; padding-top: 88px; gap: var(--space-lg); }
   .hero-inner { grid-template-columns: 1fr; gap: var(--space-xl); text-align: center; }
+  .hero-title { justify-content: center; gap: 10px; }
+  .hero-title-apple { width: 38px; }
   .keywords { align-items: center; }
   .keywords li { font-size: 1.0625rem; }
   .avatar-frame { max-width: 320px; }
@@ -617,6 +625,8 @@ body.anim-ready .fade-in.visible { opacity: 1; transform: none; }
 
   /* 汉堡菜单 */
   .nav-toggle { display: flex; position: fixed; top: 16px; right: 16px; z-index: 100; }
+  .home-nav-apple { position: fixed; top: 20px; right: 70px; z-index: 100; width: 34px; }
+  body.menu-open .home-nav-apple { visibility: hidden; }
   .nav-menu {
     position: fixed;
     inset: 0;
