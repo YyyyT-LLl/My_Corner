@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+  <!-- 项目封面占位图：后续用真实项目截图替换（建议 16:10 比例） -->
+  <rect width="480" height="300" fill="#F5F1E8"/>
+  <!-- 手绘浏览器窗口 -->
+  <rect x="70" y="50" width="340" height="210" rx="14" fill="#FFFFFF" stroke="#B8AE9E" stroke-width="3"/>
+  <path d="M70 64 Q70 50 84 50 L396 50 Q410 50 410 64 L410 84 L70 84 Z" fill="#FBEDEA" stroke="#B8AE9E" stroke-width="3"/>
+  <circle cx="92" cy="67" r="5" fill="#D94F3D"/>
+  <circle cx="110" cy="67" r="5" fill="#F2C94C"/>
+  <circle cx="128" cy="67" r="5" fill="#7FA66A"/>
+  <rect x="96" y="110" width="180" height="14" rx="7" fill="#E8DFCF"/>
+  <rect x="96" y="140" width="288" height="10" rx="5" fill="#F5F1E8"/>
+  <rect x="96" y="160" width="250" height="10" rx="5" fill="#F5F1E8"/>
+  <rect x="96" y="180" width="270" height="10" rx="5" fill="#F5F1E8"/>
+  <rect x="96" y="210" width="96" height="26" rx="13" fill="#D94F3D"/>
+  <text x="240" y="288" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#7A6E62">Project Screenshot</text>
+</svg>

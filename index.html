@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 【需填写】网站名称 -->
+  <title>My Corner</title>
+  <!-- 【需填写】网站简介，用于搜索引擎和分享卡片 -->
+  <meta name="description" content="My Corner — Yitong Liu 的个人角落：AI Explorer · Business Administration Sophomore · Sports Enthusiast · Lifelong Learner。">
+  <!-- 分享卡片基础信息（og:image 请后续替换为真实分享图 assets/images/og-cover.png） -->
+  <meta property="og:title" content="My Corner">
+  <meta property="og:description" content="Yitong Liu 的个人角落：经历、项目与联系。">
+  <meta property="og:type" content="website">
+  <!-- 【需填写】准备分享卡片图片，并替换为实际图片路径 -->
+  <meta property="og:image" content="assets/images/og-cover.png">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="home-page">
+
+  <main class="hero">
+    <div class="hero-inner">
+      <!-- 左侧：个人介绍（仅英文关键词） -->
+      <section class="hero-text" aria-label="个人介绍">
+        <!-- 【需填写】姓名 -->
+        <h1 class="hero-title">Hi, I'm Yitong Liu</h1>
+        <!-- 【需填写】首页欢迎语 -->
+        <p class="hero-name">Welcome to my corner</p>
+        <!-- 【需填写】个人标签，可按需增删 -->
+        <ul class="keywords">
+          <li>Business Administration Sophomore</li>
+          <li>Sports Enthusiast</li>
+          <li>AI Explorer</li>
+        </ul>
+        <!-- 首页导航放在个人简介下方 -->
+        <nav class="site-nav" aria-label="主导航">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="打开菜单">
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="index.html" class="active" aria-current="page"><span class="nav-text"><span class="nav-en">Home</span><span class="nav-zh">首页</span></span></a></li>
+            <li><a href="about.html"><span class="nav-text"><span class="nav-en">About</span><span class="nav-zh">关于我</span></span></a></li>
+            <li><a href="experience.html"><span class="nav-text"><span class="nav-en">Experience</span><span class="nav-zh">经历</span></span></a></li>
+            <li><a href="projects.html"><span class="nav-text"><span class="nav-en">Projects</span><span class="nav-zh">项目</span></span></a></li>
+            <li><a href="contact.html"><span class="nav-text"><span class="nav-en">Contact</span><span class="nav-zh">联系</span></span></a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <!-- 右侧：卡通人物形象与手绘装饰 -->
+      <div class="hero-visual">
+        <figure class="avatar-frame">
+          <img src="character.svg" alt="Yitong Liu 的卡通形象" class="avatar-img">
+        </figure>
+        <span class="deco deco-apple parallax" aria-hidden="true">
+          <img class="sway" src="assets/images/apple.svg" alt="">
+        </span>
+        <span class="deco deco-star parallax" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="30" height="30"><path d="M20 3 L23.5 15.5 L37 19 L24 24 L21 37 L16.5 25 L3 20 L16 15 Z" fill="#6FA8D8"/></svg>
+        </span>
+        <span class="deco deco-apple-small parallax" aria-hidden="true">
+          <img class="sway" src="assets/images/apple.svg" alt="">
+        </span>
+        <span class="deco deco-flower parallax" aria-hidden="true">
+          <svg viewBox="0 0 60 60">
+            <path d="M29 5 C32 14 35 18 45 20 C36 23 33 27 30 39 C27 28 23 24 13 21 C23 18 27 14 29 5 Z" fill="#F2C94C" stroke="#8C3226" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M43 43 C47 39 50 38 55 39 M8 44 C12 47 14 50 15 55" fill="none" stroke="#7FA66A" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="48" cy="10" r="2" fill="#6FA8D8"/>
+            <circle cx="8" cy="12" r="2" fill="#D94F3D"/>
+          </svg>
+        </span>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===== 访问统计（预留，填入 ID 后取消注释即可启用）=====
+  Umami（推荐，需填写 website-id 后再取消本段注释）：
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="在这里填你的-website-id"></script>
+  百度统计（需填写 ID 后再取消本段注释）：
+  <script>var _hmt = _hmt || [];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?在这里填你的ID";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s);})();</script>
+  ============================================================ -->
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

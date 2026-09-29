@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact · My Corner</title>
+  <meta name="description" content="联系 Yitong Liu：GitHub、邮箱、电话、微信，或留句话。">
+  <meta property="og:title" content="Contact · My Corner">
+  <meta property="og:description" content="联系 Yitong Liu：社交账号、邮箱、电话、微信。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/og-cover.png">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="page-nav">
+    <nav class="site-nav" aria-label="主导航">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="打开菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html"><span class="nav-text"><span class="nav-en">Home</span><span class="nav-zh">首页</span></span></a></li>
+        <li><a href="about.html"><span class="nav-text"><span class="nav-en">About</span><span class="nav-zh">关于我</span></span></a></li>
+        <li><a href="experience.html"><span class="nav-text"><span class="nav-en">Experience</span><span class="nav-zh">经历</span></span></a></li>
+        <li><a href="projects.html"><span class="nav-text"><span class="nav-en">Projects</span><span class="nav-zh">项目</span></span></a></li>
+        <li><a href="contact.html" class="active" aria-current="page"><span class="nav-text"><span class="nav-en">Contact</span><span class="nav-zh">联系</span></span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="page-title">
+      Contact <span class="title-zh">联系</span>
+      <!-- 【需填写】如需使用标题装饰图片，替换为实际图片路径 -->
+      <img class="title-apple sway" src="assets/images/apple.svg" alt="" aria-hidden="true">
+    </h1>
+    <!-- 【需填写】联系页导语（可选） -->
+    <p class="page-lead fade-in">很高兴认识你，欢迎随时找我聊聊。</p>
+
+    <!-- 【需填写】替换以下 QQ、邮箱、电话和微信为自己的联系方式 -->
+    <section class="section fade-in" aria-labelledby="contact-title">
+      <h2 class="section-title" id="contact-title">Find Me <span class="title-zh">联系方式</span></h2>
+      <div class="card-grid grid-2">
+        <article class="card contact-card">
+          <span class="contact-icon" aria-hidden="true">🐙</span>
+          <h3>QQ</h3>
+          <!-- 【需填写】QQ 号码；href 也要同步修改 -->
+          <p><a href="tencent://message/?uin=2027747598">2027747598</a></p>
+        </article>
+        <article class="card contact-card">
+          <span class="contact-icon" aria-hidden="true">✉️</span>
+          <h3>邮箱 Email</h3>
+          <!-- 【需填写】邮箱地址；mailto 地址也要同步修改 -->
+          <p><a href="mailto:2027747598@qq.com">2027747598@qq.com</a></p>
+        </article>
+        <article class="card contact-card">
+          <span class="contact-icon" aria-hidden="true">📱</span>
+          <h3>电话 Phone</h3>
+          <!-- 【需填写】电话号码 -->
+          <p>+86 18751879932</p>
+        </article>
+        <article class="card contact-card">
+          <span class="contact-icon" aria-hidden="true">💬</span>
+          <h3>微信 WeChat</h3>
+          <!-- 【需填写】微信号 -->
+          <p>微信号：LYT15280989920</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="apple-divider" aria-hidden="true"><img src="assets/images/apple.svg" alt=""></div>
+
+    <!-- 互动留言区：留下你想对我说的话 -->
+    <section class="section fade-in" aria-labelledby="message-title">
+      <h2 class="section-title" id="message-title">Say Hi <span class="title-zh">留言区</span></h2>
+      <div class="card message-card" style="margin-top: var(--space-lg);">
+        <p>请留下你想对我说的话：写下面表单会自动打开你的邮件客户端，也可以直接发邮件。</p>
+        <form id="contact-form" novalidate>
+          <div>
+            <label for="name">你的名字 Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" placeholder="怎么称呼你？">
+          </div>
+          <div>
+            <label for="email">你的邮箱 Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="方便我回复你（可选）">
+          </div>
+          <div>
+            <label for="message">想说的话 Message</label>
+            <textarea id="message" name="message" required placeholder="写下你的留言…"></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">通过邮件发送 Send via Email</button>
+            <!-- 【需填写】替换为自己的收件邮箱 -->
+            <a class="btn btn-secondary" href="mailto:hello@example.com">直接发邮件</a>
+          </div>
+          <p class="form-tip" id="form-tip" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="assets/images/apple.svg" alt="" aria-hidden="true">
+    <span>© 2026 Yitong Liu · My Corner</span>
+  </footer>
+
+  <!-- ===== 访问统计（预留，填入 ID 后取消注释即可启用）=====
+  Umami（推荐）：
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="在这里填你的-website-id"></script>
+  百度统计：
+  <script>var _hmt = _hmt || [];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?在这里填你的ID";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s);})();</script>
+  ============================================================ -->
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

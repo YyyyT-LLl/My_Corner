@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects · My Corner</title>
+  <meta name="description" content="Yitong Liu 的项目作品案例。">
+  <meta property="og:title" content="Projects · My Corner">
+  <meta property="og:description" content="Yitong Liu 的项目作品案例。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/og-cover.png">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="page-nav">
+    <nav class="site-nav" aria-label="主导航">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="打开菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html"><span class="nav-text"><span class="nav-en">Home</span><span class="nav-zh">首页</span></span></a></li>
+        <li><a href="about.html"><span class="nav-text"><span class="nav-en">About</span><span class="nav-zh">关于我</span></span></a></li>
+        <li><a href="experience.html"><span class="nav-text"><span class="nav-en">Experience</span><span class="nav-zh">经历</span></span></a></li>
+        <li><a href="projects.html" class="active" aria-current="page"><span class="nav-text"><span class="nav-en">Projects</span><span class="nav-zh">项目</span></span></a></li>
+        <li><a href="contact.html"><span class="nav-text"><span class="nav-en">Contact</span><span class="nav-zh">联系</span></span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="page-title">
+      Projects <span class="title-zh">项目</span>
+      <img class="title-apple sway" src="assets/images/apple.svg" alt="" aria-hidden="true">
+    </h1>
+    <!-- 【需填写】项目页导语（可选） -->
+    <p class="page-lead fade-in">一些做过的小东西 </p>
+
+    <!-- 项目卡片：每张卡片字段齐全，可手动增删 -->
+    <section class="section fade-in" aria-label="项目列表">
+      <div class="card-grid grid-2" style="margin-top: 0;">
+
+        <article class="card project-card">
+          <!-- 【需填写】项目封面图片路径和 alt 说明 -->
+          <img src="assets/images/project-image.svg" alt="My Corner 个人网站项目展示图" loading="lazy">
+          <div class="project-body">
+            <!-- 【需填写】项目名称、角色、时间、简介、工具和项目链接 -->
+            <h3>My Corner 网页</h3>
+            <p class="meta">角色：开发者 ｜ 2026.9</p>
+            <p>项目简介：个人网站，用于展示个人作品和经历。</p>
+            <ul class="chips">
+              <li>Deepseek</li>
+              <li>Trae</li>
+            </ul>
+            <a class="project-link" href="#" rel="noopener">查看项目 →</a>
+          </div>
+        </article>
+
+        <aside class="project-note card" aria-label="更多项目提示">
+          <p>更多灵感还在生根发芽......</p>
+        </aside>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="assets/images/apple.svg" alt="" aria-hidden="true">
+    <span>© 2026 Yitong Liu · My Corner</span>
+  </footer>
+
+  <!-- ===== 访问统计（预留，填入 ID 后取消注释即可启用）=====
+  Umami（推荐）：
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="在这里填你的-website-id"></script>
+  百度统计：
+  <script>var _hmt = _hmt || [];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?在这里填你的ID";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s);})();</script>
+  ============================================================ -->
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

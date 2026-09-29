@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 400">
+  <!-- 卡通人物形象占位图：后续用同名文件替换即可 -->
+  <rect width="320" height="400" rx="24" fill="#F5F1E8"/>
+  <!-- 简单手绘小人 -->
+  <circle cx="160" cy="150" r="62" fill="#FDF9F2" stroke="#4A3F35" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="139" cy="142" r="5.5" fill="#4A3F35"/>
+  <circle cx="181" cy="142" r="5.5" fill="#4A3F35"/>
+  <path d="M141 172 Q160 188 179 172" fill="none" stroke="#4A3F35" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- 腮红 -->
+  <ellipse cx="126" cy="164" rx="8" ry="5" fill="#F2B8B0" opacity="0.8"/>
+  <ellipse cx="194" cy="164" rx="8" ry="5" fill="#F2B8B0" opacity="0.8"/>
+  <!-- 身体 -->
+  <path d="M110 252 Q160 224 210 252 L214 330 Q160 348 106 330 Z" fill="#FDF9F2" stroke="#4A3F35" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- 头顶小苹果 -->
+  <path d="M160 62 C156 56 147 57 145 65 C143 73 148 83 155 84 C158 85 159 83 160 83 C161 83 162 85 165 84 C172 83 177 73 175 65 C173 57 164 56 160 62 Z" fill="#D94F3D" stroke="#8C3226" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M160 61 C160 57 162 54 165 52" fill="none" stroke="#6B4A3A" stroke-width="2" stroke-linecap="round"/>
+  <text x="160" y="382" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#7A6E62">Avatar Coming Soon</text>
+</svg>

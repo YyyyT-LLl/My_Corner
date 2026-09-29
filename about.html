@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me · My Corner</title>
+  <meta name="description" content="关于 Yitong Liu：工商管理大二在读，热爱摄影、运动与乐器。">
+  <meta property="og:title" content="About Me · My Corner">
+  <meta property="og:description" content="关于 Yitong Liu：教育背景、兴趣与未来规划。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/og-cover.png">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="page-nav">
+    <nav class="site-nav" aria-label="主导航">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="打开菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html"><span class="nav-text"><span class="nav-en">Home</span><span class="nav-zh">首页</span></span></a></li>
+        <li><a href="about.html" class="active" aria-current="page"><span class="nav-text"><span class="nav-en">About</span><span class="nav-zh">关于我</span></span></a></li>
+        <li><a href="experience.html"><span class="nav-text"><span class="nav-en">Experience</span><span class="nav-zh">经历</span></span></a></li>
+        <li><a href="projects.html"><span class="nav-text"><span class="nav-en">Projects</span><span class="nav-zh">项目</span></span></a></li>
+        <li><a href="contact.html"><span class="nav-text"><span class="nav-en">Contact</span><span class="nav-zh">联系</span></span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="page-title">
+      About Me <span class="title-zh">关于我</span>
+      <img class="title-apple sway" src="assets/images/apple.svg" alt="" aria-hidden="true">
+    </h1>
+    <!-- 【需填写】个人简介 -->
+    <p class="page-lead fade-in">你好，我是 Yitong Liu。这里记录我的过往、兴趣与一点点未来的想象。</p>
+
+    <!-- 教育背景 -->
+    <section class="section fade-in" aria-labelledby="edu-title">
+      <h2 class="section-title" id="edu-title">Education <span class="title-zh">教育背景</span></h2>
+      <div class="card-grid grid-1" style="margin-top: var(--space-lg);">
+        <article class="card">
+          <!-- 【需填写】学校、学院、就读时间 -->
+          <h3>Business Administration Sophomore</h3>
+          <p class="meta">南京大学 · 商学院｜ 2025.09 – 至今</p>
+          <!-- 【需填写】专业介绍和学习方向 -->
+          <p> 大二  工商管理专业</p>
+          <!-- 【需填写】主修课程或技能标签 -->
+          <ul class="chips">
+            <li>管理学原理</li>
+            <li>微观经济学</li>
+            <li>宏观经济学</li>
+            <li>组织行为学</li>
+            <li>财务决策与管理</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- 兴趣 -->
+    <section class="section fade-in" aria-labelledby="interest-title">
+      <h2 class="section-title" id="interest-title">Interests <span class="title-zh">兴趣</span></h2>
+      <div class="card-grid grid-3">
+        <article class="card">
+          <h3>Photography <span class="title-zh">摄影</span></h3>
+          <p>风光摄影 & 活动纪实</p>
+        </article>
+        <article class="card">
+          <h3>Sports <span class="title-zh">运动</span></h3>
+          <p>羽毛球狂热爱好者</p>
+          <p>健身持之以恒者</p>
+          <p>攀岩入门狂热小白</p>
+        </article>
+        <article class="card">
+          <h3>Musical Instruments <span class="title-zh">乐器</span></h3>
+          <p>长笛九级 乐理三级</p>
+          <p>尤克里里 吉他</p>
+        </article>
+      </div>
+
+      <!-- 摄影作品展示区：1st 文件夹对应第一排，2nd 文件夹对应第二排 -->
+      <h3 style="margin-top: var(--space-xl); font-family: var(--font-title);">Photography Gallery <span class="title-zh">部分摄影作品展览</span></h3>
+      <div class="photo-board">
+        <!-- 第一排挂绳：点右侧箭头启动转动 -->
+        <div class="rope-row">
+          <svg class="rope-line" viewBox="0 0 100 22" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0 6 Q 50 16 100 6" fill="none" stroke="#6B4A3A" stroke-width="3" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+          </svg>
+          <div class="rope-track">
+            <figure class="hanging-photo" style="--tilt:-2.5deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-01.jpg" alt="摄影作品（第一排 1）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:1.8deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-02.jpg" alt="摄影作品（第一排 2）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:-1.2deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-03.jpg" alt="摄影作品（第一排 3）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:2.2deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-04.jpg" alt="摄影作品（第一排 4）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:-1.6deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-05.jpg" alt="摄影作品（第一排 5）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:1.4deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-06.jpg" alt="摄影作品（第一排 6）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:-2deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-07.jpg" alt="摄影作品（第一排 7）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:1.5deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-08.jpg" alt="摄影作品（第一排 8）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:-1.4deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-09.jpg" alt="摄影作品（第一排 9）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:2deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-10.jpg" alt="摄影作品（第一排 10）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:-1.8deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-11.jpg" alt="摄影作品（第一排 11）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:1.3deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-12.jpg" alt="摄影作品（第一排 12）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:-2.2deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-13.jpg" alt="摄影作品（第一排 13）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:1.7deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/1st/photo-14.jpg" alt="摄影作品（第一排 14）" loading="lazy"></span>
+            </figure>
+          </div>
+          <button class="reel-btn" type="button" data-start-label="启动第一排照片转动" data-stop-label="停止第一排照片转动" aria-pressed="false" aria-label="启动第一排照片转动">
+            <svg viewBox="0 0 36 32" aria-hidden="true"><path d="M5 16 C13 12.5 22 12.5 29 15.5 M23 9.5 L30.5 15.5 L22.5 21" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <!-- 第二排挂绳：拥有自己独立的箭头装置 -->
+        <div class="rope-row">
+          <svg class="rope-line" viewBox="0 0 100 22" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0 6 Q 50 16 100 6" fill="none" stroke="#6B4A3A" stroke-width="3" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+          </svg>
+          <div class="rope-track">
+            <figure class="hanging-photo" style="--tilt:2.2deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/2nd/photo-01.jpg" alt="摄影作品（第二排 1）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:-1.6deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/2nd/photo-02.jpg" alt="摄影作品（第二排 2）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:1.4deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/2nd/photo-03.jpg" alt="摄影作品（第二排 3）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:-2deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/2nd/photo-04.jpg" alt="摄影作品（第二排 4）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:1.5deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/2nd/photo-05.jpg" alt="摄影作品（第二排 5）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:-1.4deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/2nd/photo-06.jpg" alt="摄影作品（第二排 6）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:2deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/2nd/photo-07.jpg" alt="摄影作品（第二排 7）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:-1.8deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/2nd/photo-08.jpg" alt="摄影作品（第二排 8）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:1.3deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/2nd/photo-09.jpg" alt="摄影作品（第二排 9）" loading="lazy"></span>
+            </figure>
+            <figure class="hanging-photo" style="--tilt:-2.2deg">
+              <span class="peg" aria-hidden="true"></span>
+              <span class="swing"><img src="assets/images/photos/2nd/photo-10.jpg" alt="摄影作品（第二排 10）" loading="lazy"></span>
+            </figure>
+          </div>
+          <button class="reel-btn" type="button" data-start-label="启动第二排照片转动" data-stop-label="停止第二排照片转动" aria-pressed="false" aria-label="启动第二排照片转动">
+            <svg viewBox="0 0 36 32" aria-hidden="true"><path d="M5 16 C13 12.5 22 12.5 29 15.5 M23 9.5 L30.5 15.5 L22.5 21" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <!-- 板上小装饰苹果 -->
+        <img class="board-apple sway" src="assets/images/apple.svg" alt="" aria-hidden="true">
+      </div>
+      <p class="board-hint">点击旁边的小箭头，照片就会沿着绳子滑动起来；再点一次就停下。</p>
+    </section>
+
+    <div class="apple-divider" aria-hidden="true"><img src="assets/images/apple.svg" alt=""></div>
+
+    <!-- 一些关于未来的设想 -->
+    <section class="section fade-in" aria-labelledby="future-title">
+      <h2 class="section-title" id="future-title">Future Plans <span class="title-zh">未来规划</span></h2>
+      <div class="card" style="margin-top: var(--space-lg);">
+        <p>1.尝试制作一个个人摄影集小网站</p>
+        <p>2.探索更多关于 AI 的知识，让更多灵感生根发芽</p>
+        <p>3.尝试多种路径发展，更多的扩展自己的能力（包括学会运营互联网社群，尝试AI与管理，商业的结合）</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="assets/images/apple.svg" alt="" aria-hidden="true">
+    <span>© 2026 Yitong Liu · My Corner</span>
+  </footer>
+
+  <!-- ===== 访问统计（预留，填入 ID 后取消注释即可启用）=====
+  Umami（推荐）：
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="在这里填你的-website-id"></script>
+  百度统计：
+  <script>var _hmt = _hmt || [];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?在这里填你的ID";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s);})();</script>
+  ============================================================ -->
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
